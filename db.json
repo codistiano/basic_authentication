@@ -1,3 +1,16 @@
 {
-    "users": []
+  "users": [
+    {
+      "id": "c05e",
+      "username": "codi",
+      "password": "$2a$10$lDL3/40kww3Yoozqu37kLuly8FrKuBlFpvuF8g3fsGoRmw2JvaZGW"
+    }
+  ],
+  "notes": [
+    {
+      "id": "5c56",
+      "note": "this is a new note for a user",
+      "username": "codi"
+    }
+  ]
 }
