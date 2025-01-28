@@ -94,7 +94,7 @@ app.post('/notes', tokenAuthenticate, async (req, res) => {
     }
 })
 
-app.get('/notes/:id', authenticateToken, async (req, res) => {
+app.get('/notes/:id', tokenAuthenticate, async (req, res) => {
     const { id } = req.params;
   
     try {
@@ -111,7 +111,7 @@ app.get('/notes/:id', authenticateToken, async (req, res) => {
     }
 });
 
-app.delete('/notes/:id', authenticateToken, async (req, res) => {
+app.delete('/notes/:id', tokenAuthenticate, async (req, res) => {
     const { id } = req.params;
   
     try {
